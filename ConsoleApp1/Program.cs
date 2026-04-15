@@ -54,7 +54,7 @@
                 }
                 finally
                 {
-                    Console.WriteLine("\n--- Operation Complete ---\n");
+                    Console.WriteLine("\n--- THE END ---\n");
                 }
             }
         }
