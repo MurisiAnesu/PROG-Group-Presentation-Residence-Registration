@@ -14,9 +14,9 @@
         {
             try
             {
-                return MarksList.Sum() / (double)MarksList.Count;
+                return MarksList.Average();
             }
-            catch (DivideByZeroException)
+            catch (InvalidOperationException)
             {
                 return 0;
             }
